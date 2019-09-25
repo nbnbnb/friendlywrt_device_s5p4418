@@ -3,6 +3,7 @@
 TARGET_PLAT=s5p4418
 TARGET_ARCH=arm
 CROSS_COMPILER=arm-linux-
+TARGET_OSNAME=friendlywrt
 
 # FriendlyWRT
 # 
@@ -27,7 +28,7 @@ TARGET_KERNEL_DTB=s5p4418-nanopi2-*.dtb
 
 # Misc
 # 
-FRIENDLYWRT_ROOTFS=build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/root-sunxi
+FRIENDLYWRT_ROOTFS=build_dir/target-arm_cortex-a9_musl_eabi/root-nexell-s5p4418
 TARGET_IMAGE_DIRNAME=friendlywrt
 TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi_Fire2A_armhf_sd.img
 TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi_Fire2A_armhf_eflasher.img
