@@ -23,14 +23,14 @@ TARGET_UBOOT_CONFIG=s5p4418_nanopi2_defconfig
 # Kernel
 # 
 
-TARGET_KERNEL_CONFIG=nanopi2_linux_defconfig
+TARGET_KERNEL_CONFIG=nanopi2_friendlywrt_defconfig
 TARGET_KERNEL_DTB=s5p4418-nanopi2-*.dtb
 
 # Misc
 # 
 FRIENDLYWRT_ROOTFS=build_dir/target-arm_cortex-a9_musl_eabi/root-nexell-s5p4418
 TARGET_IMAGE_DIRNAME=friendlywrt
-TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi_Fire2A_armhf_sd.img
-TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi_Fire2A_armhf_eflasher.img
+TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi-Fire2A_armhf_sd.img
+TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi-Fire2A_armhf_eflasher.img
 
 
